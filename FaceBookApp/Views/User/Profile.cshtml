@@ -1,0 +1,213 @@
+﻿
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model FaceBookApp.ViewModels.UserPostsViewModel
+
+@using FaceBookApp.Models
+
+@Html.Partial("_NavBar", Model.user)
+@Html.Partial("_SideBar", Model.user)
+
+<h2>Profile</h2>
+
+
+
+@foreach (var x in Model.posts.Reverse<FaceBookApp.Models.Post>())
+{
+    <div class="container">
+        <div class="well">
+            <div class="media">
+                <a class="pull-left" href="#">
+                    <img class="profileMedium" src="@("/Images/ProfilePictures/"+@x.user.profileImage)">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">  @x.user.firstName @x.user.lastName </h4>
+
+                    <p style="font-weight:bold; font-size:larger"> @x.content </p>
+
+                    <ul class="list-inline list-unstyled">
+                        <li>
+                            <span>
+                                <i class="glyphicon glyphicon-thumbs-up"></i>
+                                <span class="likesNo"> @x.likesNumber  </span> likes
+                            </span>
+                        </li>
+                        <li>|</li>
+
+                        <span><i class="glyphicon glyphicon-comment"></i> @x.commentsNumber comments</span>
+                        <li>|</li>
+                    </ul>
+
+                    @{
+
+                        if (x.likes.SingleOrDefault(p => p.postId == x.id && p.userId == Model.user.id) != null)
+                        {
+                            <button class="LikePost btn btn-primary" data-user-id=@Model.user.id data-post-id=@x.id>
+                                <i class="glyphicon glyphicon-thumbs-up"></i>  Like
+                            </button>
+                        }
+                        else
+                        {
+                            <button class="LikePost btn btn-default" data-user-id=@Model.user.id data-post-id=@x.id>
+                                <i class="glyphicon glyphicon-thumbs-up"></i>  Like
+                            </button>
+                        }
+
+                    }
+
+                    <br />
+                    <br />
+
+
+                    <div>
+
+                        <h5>Comments</h5>
+
+                        <input class="commentContent" type="text" />
+                        <button class="comment" type="submit" data-user-id=@Model.user.id
+                                data-post-id=@x.id>
+                            Add Comment
+                        </button>
+
+                        <br />
+                        <br />
+                        @if (x.comments != null)
+                        {
+                            <ul class="list-group commentsList">
+                                @foreach (var comment in x.comments)
+                                {
+
+
+                                    <li class="list-group-item">
+
+                                        <span>
+                                            <img class="profileSmall" src="@("/Images/ProfilePictures/"+ comment.User.profileImage)">
+                                        </span>
+                                        <span class="bg-info"> @comment.User.firstName @comment.User.lastName : </span>
+                                        <br />
+                                        <br />
+                                        <p align="left">@comment.text</p>
+
+
+                                    </li>
+
+                                }
+                            </ul>
+                        }
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+@section scripts{
+
+    @Scripts.Render("~/bundles/jquery")
+
+    <script>
+
+        $(document).ready(function () {
+
+            $('.LikePost').click(function () {
+                var button = $(this)
+                var URL = "";
+
+                if (button.hasClass("btn-primary")) {
+
+                    URL = "/Post/RemoveLike";
+                    button.addClass("btn-default");
+                    button.removeClass("btn-primary");
+
+                    button.parents(".media-body").find(".likesNo").text(
+
+                        parseInt(button.parents(".media-body").find(".likesNo").text())
+                        - parseInt(1)
+                    )
+                }
+                else {
+                    URL = "/Post/AddLike";
+                    button.addClass("btn-primary");
+                    button.removeClass("btn-default");
+
+                    button.parents(".media-body").find(".likesNo").text(
+
+                        parseInt(button.parents(".media-body").find(".likesNo").text())
+                        + parseInt(1)
+                    )
+
+                }
+
+                $.ajax({
+                    type: "POST",
+                    url: URL,
+                    data: {
+                        user: button.attr("data-user-id"),
+                        thepost: button.attr("data-post-id"),
+                    },
+                    success: function () {
+
+
+                    },
+
+                    failure: function () {
+                        alert("failed")
+                    },
+
+                    error: function () {
+                        alert("error")
+                    }
+
+                })
+
+            });
+
+
+
+            $('.comment').click(function () {
+                var button = $(this)
+                var commentsList = $(".commentsList");
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Post/AddComment",
+                    data: {
+                        user: button.attr("data-user-id"),
+                        thepost: button.attr("data-post-id"),
+                        comment: button.siblings(".commentContent").val()
+                    },
+                    success: function () {
+
+                        alert("comment added");
+                        button.siblings(".commentContent").val("")
+
+
+                    },
+
+                    failure: function () {
+                        alert("failed")
+                    },
+
+                    error: function () {
+                        alert("error")
+                    }
+
+                })
+
+
+            });
+
+        });
+    </script>
+}

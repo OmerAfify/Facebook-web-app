@@ -1,0 +1,29 @@
+﻿<!-- Side navigation -->
+@model FaceBookApp.Models.User
+
+<div class="sidenav barralado sidebar">
+
+
+
+    <h2 class="sidebar-title">Welcome @Model.firstName</h2>
+    <img class="profileMediumSideBar" src="@("/Images/ProfilePictures/"+@Model.profileImage)"> <!--Profie pic-->
+
+    <br />   <br />   <br />
+    <br />
+    
+    @Html.ActionLink("Add New Post", "AddPost", "Post", new { id = Model.id }, new { @class = "ActionLink-class" })
+
+    <br />
+
+    @Html.ActionLink("My Friends", "FreindsPage", "User", new { id = Model.id }, new { @class = "ActionLink-class" })
+
+    <br />
+
+    @Html.ActionLink("Friends Requests", "ShowRequests", "User", new { id = Model.id }, new { @class = "ActionLink-class" })
+
+    <br />
+
+    @Html.ActionLink("Find Friends", "FindFreinds", "User", new { id = Model.id }, new { @class = "ActionLink-class" })
+
+
+</div>

@@ -1,0 +1,218 @@
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.csproj.AssemblyReference.cache
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.csproj.CoreCompileInputs.cache
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\FaceBookApp.dll.config
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\FaceBookApp.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\FaceBookApp.pdb
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\csc.exe
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\csc.exe.config
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\csc.rsp
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\csi.exe
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\csi.exe.config
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\csi.rsp
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.AppContext.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Console.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Net.Http.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Net.Sockets.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\vbc.exe
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\vbc.exe.config
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\vbc.rsp
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\Antlr3.Runtime.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\EntityFramework.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\EntityFramework.SqlServer.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\Newtonsoft.Json.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.Helpers.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.Mvc.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.Optimization.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.Razor.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.WebPages.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\WebGrease.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\EntityFramework.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\EntityFramework.SqlServer.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.Helpers.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.Mvc.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.Optimization.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.Razor.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.WebPages.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\Newtonsoft.Json.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\Antlr3.Runtime.pdb
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.csproj.CopyComplete
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.pdb
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.Initializing.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.csproj.GenerateResource.cache
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.createUserandPostTables.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.UserAndPosts_1toM_RelationShip.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.UserFriends_MtoM_RecursiveRel.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.UserRequests_MtoM_RecursiveRel.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.HiddenColumnInPosts.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.updateImage.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.CommentsTableAded.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.UpdateComments.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.dislikesColumnToPosts.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.UpdateCommentsTable.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.UpdatePostTable.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.LikesTable.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.updateCustomersTableName.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.RemoveDislikesColumn.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.AddLikesNavPropToPosts.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.ValidationForRegisteration.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\xunit.abstractions.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\xunit.core.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\xunit.execution.desktop.dll
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\xunit.abstractions.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\xunit.core.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\bin\xunit.execution.desktop.xml
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.ValidationForRegisterationUpdated.resources
+C:\Users\zakaw\source\repos\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.ValidationForRegisterationUpdated2.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\FaceBookApp.dll.config
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\FaceBookApp.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\FaceBookApp.pdb
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\csc.exe
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\csc.exe.config
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\csc.rsp
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\csi.exe
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\csi.exe.config
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\csi.rsp
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.Managed.Core.targets
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.AppContext.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Collections.Immutable.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Console.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Globalization.Calendars.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.IO.Compression.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.IO.FileSystem.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Net.Http.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Net.Sockets.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.ValueTuple.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Xml.XPath.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\vbc.exe
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\vbc.exe.config
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\vbc.rsp
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\VBCSCompiler.exe
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\roslyn\VBCSCompiler.exe.config
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\Antlr3.Runtime.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\EntityFramework.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\EntityFramework.SqlServer.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\Microsoft.Web.Infrastructure.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\Newtonsoft.Json.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.Helpers.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.Mvc.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.Optimization.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.Razor.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.WebPages.Deployment.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.WebPages.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.WebPages.Razor.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\WebGrease.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\xunit.abstractions.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\xunit.core.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\xunit.execution.desktop.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\EntityFramework.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\EntityFramework.SqlServer.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.Helpers.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.Mvc.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.Optimization.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.Razor.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.WebPages.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.WebPages.Deployment.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\System.Web.WebPages.Razor.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\Newtonsoft.Json.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\Antlr3.Runtime.pdb
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\xunit.abstractions.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\xunit.core.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\xunit.execution.desktop.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.csproj.AssemblyReference.cache
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.Initializing.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.createUserandPostTables.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.UserAndPosts_1toM_RelationShip.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.UserFriends_MtoM_RecursiveRel.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.UserRequests_MtoM_RecursiveRel.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.HiddenColumnInPosts.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.updateImage.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.CommentsTableAded.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.UpdateComments.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.dislikesColumnToPosts.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.UpdateCommentsTable.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.UpdatePostTable.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.LikesTable.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.updateCustomersTableName.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.RemoveDislikesColumn.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.AddLikesNavPropToPosts.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.ValidationForRegisteration.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.ValidationForRegisterationUpdated.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.Migrations.ValidationForRegisterationUpdated2.resources
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.csproj.GenerateResource.cache
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.csproj.CoreCompileInputs.cache
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.csproj.CopyComplete
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.dll
+D:\6-Programming and courses\My Local Projects Repository\ASP.net MVC\FaceBookApp\FaceBookApp\obj\Debug\FaceBookApp.pdb

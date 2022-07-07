@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "AddPost";
+}
+
+
+@model FaceBookApp.ViewModels.PostandUserViewModel
+
+
+
+
+@Html.Partial("_Navbar", Model.user)
+
+@Html.Partial("_Sidebar", Model.user)
+
+
+
+
+<h2>AddPost</h2>
+
+<h2>@Model.user.firstName</h2>
+
+@using (Html.BeginForm("PublishPost", "Post"))
+{
+
+    <div class="form-group">
+        @Html.LabelFor(l => l.post.content)
+        @Html.TextBoxFor(l => l.post.content, new { @class = "form-control" })
+    </div>
+
+    <div class="checkbox">
+        <label>
+            @Html.CheckBoxFor(m => m.post.hidden) Hide From All Friends
+        </label>
+       
+    </div>
+
+
+    @Html.HiddenFor(l => l.post.userId, new { @Value = Model.user.id })
+
+    <button type="submit" class="btn btn-danger">Publish</button>
+
+
+}
+
+
+

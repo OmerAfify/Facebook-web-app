@@ -1,0 +1,256 @@
+﻿
+@{
+    ViewBag.Title = "MyProfilePage";
+}
+
+@model FaceBookApp.ViewModels.UserPostsViewModel
+
+
+
+@Html.Partial("_NavBar", Model.user)
+@Html.Partial("_SideBar", Model.user)
+
+
+<div class="bg-info" style="margin:30px; padding:30px">
+
+    <img class="profile" src="@("/Images/ProfilePictures/"+@Model.user.profileImage)"> <!--Profie pic-->
+
+    <h2 style="display:inline">@Model.user.firstName  @Model.user.lastName</h2>
+</div>
+
+
+@foreach (var post in Model.posts.Reverse<FaceBookApp.Models.Post>())
+{
+    <div class="container">
+        <div class="well">
+            <div class="media">
+
+                <div class="media-body">
+                    <h4 class="media-heading">  @post.user.firstName @post.user.lastName </h4>
+                    <p>
+                        @post.content
+                    </p>
+                    <ul class="list-inline list-unstyled">
+                        <li><span><i class="glyphicon glyphicon-thumbs-up"></i> <span class="likesNo">  @post.likesNumber </span> likes </span></li>
+                        <li>|</li>
+
+                        <span><i class="glyphicon glyphicon-comment"></i> @post.commentsNumber comments</span>
+                        <li>|</li>
+                    </ul>
+
+
+                    @if (post.hidden == true)
+                    {
+                        <input type="checkbox" class="checkbox_hidden" id=@post.id data-post-hidden=@post.hidden checked />
+                        <label>Make Post Private ?</label>
+                    }
+                    else
+                    {
+                        <input type="checkbox" class="checkbox_hidden" id=@post.id data-post-hidden=@post.hidden />
+                        <label>Make Post Private ?</label>
+                    }
+
+                    <br />
+                    <br />
+
+                    @{
+
+                        if (post.likes.SingleOrDefault(p => p.postId == post.id && p.userId == Model.user.id) != null)
+                        {
+                            <button class="LikePost btn btn-primary" data-user-id=@Model.user.id data-post-id=@post.id>
+                                <i class="glyphicon glyphicon-thumbs-up"></i>  Like
+                            </button>
+                        }
+                        else
+                        {
+                            <button class="LikePost btn btn-default" data-user-id=@Model.user.id data-post-id=@post.id>
+                                <i class="glyphicon glyphicon-thumbs-up"></i>  Like
+                            </button>
+                        }
+
+                    }
+
+                    <br />
+                    <br />
+
+
+                    <div>
+
+                        <h5>Comments</h5>
+
+                        <input class="commentContent" type="text" />
+                        <button class="comment" type="submit" data-user-id=@Model.user.id
+                                data-post-id=@post.id>
+                            Add Comment
+                        </button>
+
+                        <br />
+                        <br />
+                        @if (post.comments != null)
+                        {
+                            <ul class="list-group">
+                                @foreach (var commment in post.comments)
+                                {
+                                    <li class="list-group-item">
+                                        <span class="bg-info"> @commment.User.firstName @commment.User.lastName : </span>
+                                        <br />@commment.text
+                                    </li>
+
+                                }
+                            </ul>
+                        }
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@section scripts{
+
+    @Scripts.Render("~/bundles/jquery")
+
+    <script>
+
+        $(document).ready(function () {
+
+
+            $('.checkbox_hidden').click(function () {
+                var input = $(this)
+
+                $.ajax({
+                    type: "POST",
+                    url: '/Post/HideOrViewPost',
+                    data: {
+                        id: input.attr("id"),
+                        hidden: input.attr("data-post-hidden")
+                    },
+                    success: function () {
+
+
+                    },
+
+                    failure: function () {
+                        alert("failed")
+                    },
+
+                    error: function () {
+                        alert("error")
+                    }
+
+                })
+            });
+
+            $('.LikePost').click(function () {
+                var button = $(this)
+                var URL = "";
+
+                if (button.hasClass("btn-primary")) {
+
+                    URL = "/Post/RemoveLike";
+                    button.addClass("btn-default");
+                    button.removeClass("btn-primary");
+
+                    button.parents(".media-body").find(".likesNo").text(
+
+                        parseInt(button.parents(".media-body").find(".likesNo").text())
+                        - parseInt(1)
+                    )
+                }
+                else {
+                    URL = "/Post/AddLike";
+                    button.addClass("btn-primary");
+                    button.removeClass("btn-default");
+
+                    button.parents(".media-body").find(".likesNo").text(
+
+                        parseInt(button.parents(".media-body").find(".likesNo").text())
+                        + parseInt(1)
+                    )
+
+                }
+
+                $.ajax({
+                    type: "POST",
+                    url: URL,
+                    data: {
+                        user: button.attr("data-user-id"),
+                        thepost: button.attr("data-post-id"),
+                    },
+                    success: function () {
+
+
+                    },
+
+                    failure: function () {
+                        alert("failed")
+                    },
+
+                    error: function () {
+                        alert("error")
+                    }
+
+                })
+
+            });
+
+
+
+            $('.comment').click(function () {
+                var button = $(this)
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Post/AddComment",
+                    data: {
+                        user: button.attr("data-user-id"),
+                        thepost: button.attr("data-post-id"),
+                        comment: button.siblings(".commentContent").val()
+                    },
+                    success: function () {
+
+                        alert("comment added");
+                        button.siblings(".commentContent").val("")
+
+
+                    },
+
+                    failure: function () {
+                        alert("failed")
+                    },
+
+                    error: function () {
+                        alert("error")
+                    }
+
+                })
+            })
+
+
+
+        });
+
+
+
+    </script>
+
+
+
+}

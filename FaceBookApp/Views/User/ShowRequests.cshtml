@@ -1,0 +1,113 @@
+﻿@model  FaceBookApp.ViewModels.UserFreindsViewModel
+
+@{
+    ViewBag.Title = "ShowRequests";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("_NavBar", Model.user)
+@Html.Partial("_SideBar", Model.user)
+
+<h2>ShowRequests</h2>
+
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Country</th>
+            <th scope="col">City</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var x in Model.friends)
+        {
+            <tr>
+                <td>    <img class="profileSmall" src="@("/Images/ProfilePictures/"+@x.profileImage)"></td>
+                <td>@x.firstName</td>
+                <td>@x.lastName</td>
+                <td>@x.country</td>
+                <td>@x.city</td>
+                <td>
+                    
+                    <button class="btn btn-success" id="@x.id">Accept Request</button>
+                </td>
+                <td>
+              <button class="btn btn-danger" id="@x.id">Reject Request</button>
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+@section scripts{
+
+    @Scripts.Render("~/bundles/jquery")
+
+    <script>
+
+
+    $(document).ready(function () {
+
+
+        $(document).ready(function () {
+            $('.btn-success, .btn-danger').click(function () {
+                var button = $(this)
+
+                $.ajax({
+                    type: "POST",
+                    url: "/User/RespondToFriendRequest",
+                    data: {
+                        id: @Model.user.id.ToString(),
+                        r_user: button.attr("id"),
+                        accept: button.hasClass("btn-success")? "true" : "false"
+                    },
+                    success: function () {
+
+                        if (button.hasClass("btn-success"))
+                         alert("you are now friends !!"); 
+                        else
+                            alert("request is rejected.");
+
+                        button.parents("tr").remove();
+                        },
+
+                    failure: function () {
+
+                        alert("failed")
+
+                    },
+
+                    error: function () {
+
+                        alert("error")
+                    }
+
+                })
+
+
+            });
+
+        });
+
+    });
+    </script>
+
+
+
+}
